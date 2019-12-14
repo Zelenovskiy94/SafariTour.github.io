@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'a_BighausTitulBrk';
+    src: url('a_BighausTitulBrk-ExtraBold.eot');
+    src: url('a_BighausTitulBrk-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('a_BighausTitulBrk-ExtraBold.woff2') format('woff2'),
+        url('a_BighausTitulBrk-ExtraBold.woff') format('woff'),
+        url('a_BighausTitulBrk-ExtraBold.ttf') format('truetype'),
+        url('a_BighausTitulBrk-ExtraBold.svg#a_BighausTitulBrk-ExtraBold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'a_CooperBlackNr';
+    src: url('a_CooperBlackNr.eot');
+    src: url('a_CooperBlackNr.eot?#iefix') format('embedded-opentype'),
+        url('a_CooperBlackNr.woff2') format('woff2'),
+        url('a_CooperBlackNr.woff') format('woff'),
+        url('a_CooperBlackNr.ttf') format('truetype'),
+        url('a_CooperBlackNr.svg#a_CooperBlackNr') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+

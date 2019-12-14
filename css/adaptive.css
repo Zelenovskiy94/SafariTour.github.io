@@ -1,0 +1,298 @@
+@media screen and (max-width: 1020px) {
+		.header-middle {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.slider {
+		margin-bottom: 40px;
+	}
+
+	.header-bottom {
+		margin-top: 0px;
+		background: #127ea5;
+		padding-top: 40px;
+		padding-bottom: 50px;
+		min-height: 650px;
+	}
+
+	.offers {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	flex-direction: column;
+	align-items: center;
+	height: 500px;
+	}
+
+	.special-offers {
+		margin-right: 0;
+	}
+
+
+	.list-offers {
+		margin-top: 10px;
+	}
+	.menu1 div{ 
+		margin-bottom: 15px;
+	}
+
+
+}
+
+@media screen and (max-width: 890px) {
+	.header-top {
+		height: 180px;
+		background-image: none;
+		background-color: #4cb2e7;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.header-logo {
+		margin-left: 0;
+	}
+
+	.menu-nav {
+		margin-left: 0;
+	}
+
+
+	.slider {
+		z-index: 0;
+		width: 590px;
+	}
+
+	h2.slider-headline {
+		font-size: 45px;
+		margin-bottom: 20px;
+		left: 290px;
+		top: 88px;
+	}
+
+	p.slider-headline {
+	font-size: 22px;
+	left: 270px;
+	top: 158px;
+}
+
+	.connect form {
+	display: flex;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: -moz-flex;
+	flex-direction: column;
+	}
+}
+
+/**/
+
+.menu {
+	padding-left: 40px;
+}
+
+.menu input[type="checkbox"] {
+	display: none;
+}
+
+.menu label.toggleName {
+	background: none;
+	color: #ffffff;
+	display: none;
+	padding-left: 30px;
+	padding-right: 10px;
+	padding-top: 12px;
+	padding-bottom: 15px;
+	text-transform: uppercase;
+	font-size: 20px;
+	cursor: pointer;
+	position: relative;
+}
+
+.menu label.toggleName .fas{
+	position: absolute;
+	top: 14px;
+	left: 10px;
+	font-size: 18px;
+}
+
+/**/
+@media screen and (max-width: 750px) {
+	.footer-main {
+	display: flex;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: -moz-flex;
+	flex-direction: column;
+	align-items: center;
+	}
+	.footer-main textarea {
+		width: 175px;
+	}
+
+}
+@media screen and (max-width: 620px) {
+	#photos tr td {
+	width: 50%;
+}
+
+#photos td:last-child img {
+	margin-right: 0;
+}
+
+	.header-top {
+		height: 85px;
+		flex-direction: row;
+		align-items: flex-start;
+	}
+
+	.slider {
+		display: none
+	}
+
+	.slider-wrapper {
+		width: 100%;
+	}
+
+	h2.slider-headline {
+		font-size: 45px;
+		margin-bottom: 20px;
+		left: 170px;
+		top: 88px;
+	}
+
+	p.slider-headline {
+		font-size: 22px;
+		left: 150px;
+		top: 158px;
+}
+
+	.menu {
+		overflow: hidden;
+		margin-right: 30px;
+		margin-top: 20px;
+		z-index: 3;
+	}
+
+	.menu-nav {
+		width: 150px;
+		display: block;
+		max-height: 0;
+		font-size: 18px;
+		line-height: 50px;
+		margin-top: 0;
+		margin-bottom: 0;
+		background: rgba(76,178,231,0.7);
+		z-index: 3;
+	}
+
+	.menu-nav li a {
+		padding-bottom: 15px;
+		padding-top: 15px;
+	}
+
+	.header-top label.toggleName {
+		display: block;
+	}
+
+	input.toggleName:checked + label.toggleName {
+		border: none;
+	}
+
+
+	input.toggleName:checked ~ .menu-nav {
+		display: block;
+		width: 150px;
+		text-align: center;
+		max-height: 1000px;
+		-webkit-transition: max-height 0.5s ease-in;
+		-ms-transition: max-height 1s ease-in;
+		transition: max-height 1s ease-in;
+		z-index: 1;
+	}
+
+	.online-form {
+		margin-top: 40px;
+		margin-left: 35px;
+	}
+
+	.offers {
+	display: flex;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: -moz-flex;
+	flex-direction: column;
+	align-items: center;	
+	}
+
+	.list-offers {
+		width: 500px;
+	}
+
+	.menu1 {
+		margin-left: 10px;
+	}
+
+	.menu1 div {
+	width: 500px;
+	}
+
+
+}
+
+@media screen and (max-width: 520px) {
+
+	#tours, #photos,
+	.list-offers,
+	.menu1,
+	.menu1 div {
+	width: 95% ;
+	}
+}
+@media screen and (max-width: 430px) {
+	.header-top {
+		height: 180px;
+		flex-direction: column;
+		align-items:  center;
+	}
+}
+@media screen and (max-width: 340px) {
+
+	h2 {
+		font-size: 22px !important;
+	}
+
+
+
+	.offers {
+		width: 100%;
+	}
+
+	.special-offers {
+		width: 90%;
+		margin: 0 auto;
+		margin-top: 40px;
+	}
+
+	.offer-item {
+		width: 100%;
+	}
+
+	.offer-item .prize {
+		margin-left: 90px;
+	}
+
+	.online-form {
+		width: 280px;
+		margin: 50px auto;
+		padding: 100px 0;
+	}
+	.online-form form {
+		width: 95%;
+		margin: 0 auto;
+	}
+}
